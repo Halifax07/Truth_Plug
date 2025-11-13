@@ -302,24 +302,6 @@ A: 部分网页使用特殊结构，插件会在弹出窗口显示结果作为�
 - [Chrome 扩展开发文档](https://developer.chrome.com/docs/extensions/)
 - [项目 GitHub 仓库](https://github.com/Halifax07/Truth_Plug)
 
-## 👥 作者
-
-**Halifax07**
-
-- GitHub: [@Halifax07](https://github.com/Halifax07)
-
-## 🙏 致谢
-
-- 感谢 [Coze AI](https://www.coze.cn/) 提供强大的 AI 能力支持
-- 感谢所有为本项目做出贡献的开发者
-
-## 📮 联系方式
-
-如有问题或建议，请通过以下方式联系：
-
-- 提交 [GitHub Issue](https://github.com/Halifax07/Truth_Plug/issues)
-- 发送邮件到项目维护者
-
 ---
 
 <div align="center">
