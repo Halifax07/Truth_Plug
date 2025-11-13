@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>页面分析插件</title>
+  <style>
+    body {
+      width: 380px;
+      font-family: "Microsoft YaHei", sans-serif;
+      padding: 15px;
+      margin: 0;
+      color: #333;
+      overflow-x: hidden;
+    }
+    
+    h3 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      text-align: center;
+      color: #1a73e8;
+    }
+    
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+      background-color: #1a73e8;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 14px;
+      transition: background-color 0.2s;
+    }
+    
+    button:hover {
+      background-color: #1669d6;
+    }
+    
+    .loading {
+      display: none;
+      text-align: center;
+      margin-top: 10px;
+      color: #666;
+    }
+    
+    .loading.active {
+      display: block;
+    }
+    
+    button:disabled {
+      cursor: not-allowed;
+      opacity: 0.7;
+    }
+    
+    #resultsContainer {
+      margin-top: 15px;
+      max-height: 400px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      border-top: 1px solid #eee;
+      padding-top: 10px;
+    }
+    
+    .result-card {
+      background-color: #f9f9f9;
+      border-radius: 4px;
+      padding: 12px;
+      margin-bottom: 10px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      word-wrap: break-word;
+      overflow: hidden;
+    }
+    
+    .result-title {
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: #1a73e8;
+      word-wrap: break-word;
+    }
+    
+    .highlight-warning {
+      background-color: #fff8e1;
+      border-left: 4px solid #ffc107;
+    }
+    
+    .highlight-error {
+      background-color: #ffebee;
+      border-left: 4px solid #f44336;
+    }
+    
+    .highlight-success {
+      background-color: #e8f5e9;
+      border-left: 4px solid #4caf50;
+    }
+    
+    #debugInfo {
+      margin-top: 15px;
+      font-family: monospace;
+      font-size: 11px;
+      background-color: #f5f5f5;
+      padding: 8px;
+      border-radius: 4px;
+      word-wrap: break-word;
+      white-space: pre-wrap;
+    }
+    
+    .result-card div {
+      max-width: 100%;
+      word-break: break-word;
+    }
+    
+    code {
+      display: inline-block;
+      max-width: 100%;
+      white-space: pre-wrap;
+      word-break: break-all;
+      background: #f0f0f0;
+      padding: 2px 4px;
+      border-radius: 3px;
+      font-family: monospace;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <h3>段落真实性分析</h3>
+  <button id="analyzePageButton">分析当前页面</button>
+  <div id="loadingStatus" class="loading">正在处理...</div>
+  
+  <!-- 为结果创建一个容器 -->
+  <div id="resultsContainer"></div>
+  
+  <script src="popup.js"></script>
+</body>
+</html> 

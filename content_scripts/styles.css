@@ -1,0 +1,51 @@
+/* content_scripts/styles.css */
+.score-annotation {
+  font-size: 0.85em;
+  font-weight: bold;
+  margin-left: 8px;
+  padding: 3px 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+  z-index: 9999; /* 确保在顶层显示 */
+  display: inline-block; /* 避免影响某些布局 */
+  position: relative; /* 为了确保在其他元素之上 */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* 轻微阴影提高可见度 */
+  font-family: Arial, sans-serif; /* 确保可读性 */
+  vertical-align: middle; /* 垂直对齐 */
+  white-space: nowrap; /* 防止分数被换行 */
+  min-width: 40px; /* 确保最小宽度 */
+  text-align: center; /* 居中显示 */
+}
+
+.score-annotation.high-score {
+  color: #007700;
+  border-color: #007700;
+  background-color: #f0fff0;
+}
+
+.score-annotation.medium-score {
+  color: #b35900;
+  border-color: #cc6600;
+  background-color: #fffae6;
+}
+
+.score-annotation.low-score {
+  color: #cc0000;
+  border-color: #cc0000;
+  background-color: #fff0f0;
+}
+
+/* 悬停效果 */
+.score-annotation:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+/* 确保分数标注不会影响原有布局 */
+p .score-annotation,
+div .score-annotation,
+span .score-annotation {
+  position: relative;
+  top: -1px;
+} 
