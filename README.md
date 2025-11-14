@@ -170,7 +170,6 @@ Truth_Plug/
   - CORS 跨域支持
 
 ### 工作流程
-<img width="415" height="221" alt="image" src="https://github.com/user-attachments/assets/f732d5a1-5c17-41f9-a76e-d39e9faa95af" />
 
 ```
 
@@ -191,7 +190,12 @@ Coze AI 分段并与官方源比对
 在弹出窗口显示详细结果
 
 ```
-<img width="474" height="254" alt="image" src="https://github.com/user-attachments/assets/bbeff67c-75a0-4d20-a76d-d897571075fb" />
+<div align="center">
+    
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/f732d5a1-5c17-41f9-a76e-d39e9faa95af" />
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/bbeff67c-75a0-4d20-a76d-d897571075fb" />
+    
+</div>
 
 ## 📝 API 说明
 
