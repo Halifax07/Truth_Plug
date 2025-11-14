@@ -141,6 +141,13 @@ Truth_Plug/
    - 高分（70+）显示为绿色
    - 中等分（40-70）显示为橙色
    - 低分（<40）显示为红色
+  
+<div align="center">
+    
+<img width="2000" height="1000" alt="image" src="https://github.com/user-attachments/assets/f732d5a1-5c17-41f9-a76e-d39e9faa95af" />
+<img width="2000" height="1000" alt="image" src="https://github.com/user-attachments/assets/bbeff67c-75a0-4d20-a76d-d897571075fb" />
+    
+</div>
 
 ### 评分说明
 
@@ -190,12 +197,7 @@ Coze AI 分段并与官方源比对
 在弹出窗口显示详细结果
 
 ```
-<div align="center">
-    
-<img width="2000" height="1000" alt="image" src="https://github.com/user-attachments/assets/f732d5a1-5c17-41f9-a76e-d39e9faa95af" />
-<img width="2000" height="1000" alt="image" src="https://github.com/user-attachments/assets/bbeff67c-75a0-4d20-a76d-d897571075fb" />
-    
-</div>
+
 
 ## 📝 API 说明
 
