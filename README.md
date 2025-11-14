@@ -172,6 +172,8 @@ Truth_Plug/
 ### 工作流程
 
 ```
+<img width="415" height="221" alt="image" src="https://github.com/user-attachments/assets/f732d5a1-5c17-41f9-a76e-d39e9faa95af" />
+
 用户点击分析
     ↓
 popup.js 获取当前页面 URL
@@ -187,6 +189,8 @@ Coze AI 分段并与官方源比对
 在页面上显示标注
     ↓
 在弹出窗口显示详细结果
+<img width="474" height="254" alt="image" src="https://github.com/user-attachments/assets/bbeff67c-75a0-4d20-a76d-d897571075fb" />
+
 ```
 
 ## 📝 API 说明
