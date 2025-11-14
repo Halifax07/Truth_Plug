@@ -192,8 +192,8 @@ Coze AI 分段并与官方源比对
 ```
 <div align="center">
     
-<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/f732d5a1-5c17-41f9-a76e-d39e9faa95af" />
-<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/bbeff67c-75a0-4d20-a76d-d897571075fb" />
+<img width="2000" height="1000" alt="image" src="https://github.com/user-attachments/assets/f732d5a1-5c17-41f9-a76e-d39e9faa95af" />
+<img width="2000" height="1000" alt="image" src="https://github.com/user-attachments/assets/bbeff67c-75a0-4d20-a76d-d897571075fb" />
     
 </div>
 
